@@ -1,0 +1,41 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 11px;
+    border-color: transparent;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    box-shadow: 7px 4px 3px rgba(54, 54, 54, 0.336);
+
+}
+
+.hidden {
+    display: none;
+  }
+  
+  .button:active {
+    background-color: #7369ff;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 6px 5px rgba(54, 54, 54, 0.336);
+  }
+
+  img {
+    box-shadow: 10px 5px 5px rgba(54, 54, 54, 0.336);
+  }
+
+ .redbtn {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  border-width: 20px;
+  background-color: red;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.638) inset;
+  border-color: rgb(68, 68, 68);
+ }
